@@ -10,11 +10,8 @@ import java.util.regex.Pattern;
 public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        StringBuilder builder = new StringBuilder();
         System.out.print("Введите строку: ");
         String str = scanner.nextLine();
-
-
 
 
         BufferedReader inputStream = new BufferedReader(new InputStreamReader(System.in));
