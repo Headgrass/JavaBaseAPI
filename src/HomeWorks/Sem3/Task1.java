@@ -6,9 +6,9 @@ import java.util.Arrays;
 public class Task1 {
 
     public static void main(String[] args) {
-        int[] a1 = new int[]{21, 921, 24, 100, 75, 76, 78, 77, 900, 2100, 44, 2300, 500, 2400, 2500};
-        System.out.println("Initial array " + Arrays.toString(a1));
-        System.out.println("Sorted array  " + Arrays.toString(sortArray(a1)));
+        int[] a = new int[]{21, 921, 24, 100, 75, 76, 78, 77, 900, 2100, 44, 2300, 500, 2400, 2500};
+        System.out.println("Initial array " + Arrays.toString(a));
+        System.out.println("Sorted array  " + Arrays.toString(sortArray(a)));
 
     }
 
