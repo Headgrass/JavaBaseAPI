@@ -17,13 +17,8 @@ package HomeWorks.Sem2.Task3;
 Студент Краснов получил 5 по предмету Физика.
  */
 
-
-import netscape.javascript.JSObject;
-
 import java.io.FileReader;
 import java.io.StringReader;
-import java.util.Iterator;
-
 
 public class Task3 {
     public static void main(String[] args) {
