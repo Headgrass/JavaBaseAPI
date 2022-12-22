@@ -1,0 +1,14 @@
+package Lections.Lec5;
+
+import java.util.*;
+
+public class Ex006_HashTable {
+    public static void main(String[] args) {
+        Map<Integer, String> table = new Hashtable<>();
+        table.put(11, "один один");
+        table.put(1, "два");
+        table.put(2, "один");
+        System.out.println(table);
+//        table.put(null, "один");
+    }
+}
